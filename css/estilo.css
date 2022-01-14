@@ -1,0 +1,477 @@
+*{
+    margin: o;
+    padding: 0;
+    border: 0;
+}
+@font-face {
+    font-family: Usuario;
+    src: url(../fonts/Latinotype\ -\ CorpSansRdAlt-BlackCnd.otf);
+}
+@font-face {
+    font-family: General;
+    src: url(../fonts/Sequel-Light.ttf);
+}
+/*************MENU***********/
+#asideMenu{
+    width: 30%;
+}
+#navMenu{
+    display: flex;
+    flex-direction: column;
+}
+.liUsuario{
+    display: flex;
+    align-items: center;
+}
+.liUsuario img{
+    width: 2.5em;
+    margin-right: 1em;
+}
+.pUsuario{
+    font-family:Usuario;
+    font-size: 1.5em;
+    margin-right: .5em;
+}
+.h2Menu{
+    font-size: 1.6em;
+    font-family: General;
+}
+.ulMenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5em;
+    margin-bottom: .8em;
+    margin-left: .5em;
+    width: 90%;
+    text-align: center; 
+}
+.liMenu{
+    list-style: none;
+    padding: .5em;
+    color: white;
+    background-color: rgb(243, 71, 71);
+    box-shadow: 2px 2px  rgb(168, 167, 167);    
+    margin-bottom: .5em; 
+    font-size: 1.2em;
+    font-family: General;
+}
+.aMenu{
+    text-decoration: none;
+    color: white;
+}
+
+/*****************INDEX*******************/
+
+
+#mainIndex{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;  
+       
+}
+#articleIndex{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+#legendIndex{
+    margin-bottom: 1.5em;
+    margin: 0 auto;
+    color: rgb(233, 8, 8);
+    font-family: General;
+    font-size: 2em;
+}
+#formuIndex{
+    border:.14em grey solid ;
+    border-radius: .5em;
+    padding: 5em;
+    box-shadow: 2px 2px  rgb(168, 167, 167);
+}
+#formuIndex label{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-family: General;
+}
+#formuIndex input{
+    border-bottom: .2em red solid;
+    padding: 2em;
+    width: 80%;
+    font-family: General;
+}
+#botonIndex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+}
+#botonIndex input{
+    margin: 0 auto;
+    font-family: General;
+    font-size: 1em;
+    background-color: white;
+    border: .2em red solid;
+    margin-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/**********USUARIO-LISTADO*******************/
+#sectionUsu{
+    display: flex;
+}
+#mainUsu{
+    margin: 0 auto;
+    margin-top: 2.8em;
+}
+th{
+    background-color: red;
+    color: white;
+    font-size: 1.4em;
+    font-family: Usuario;
+}
+table, td{
+    border: .1em black solid;
+    border-collapse: collapse;
+    font-size: 1.4em;
+    padding: .2em;
+    font-family: Usuario;
+    font-size: 1.35em;
+}
+
+/*******************PELICULA-ALTA********************/
+
+#sectionAlta{
+    display: flex;
+}
+#articleAlta{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+#legendAlta{
+    margin-left: 10em;
+    color: rgb(233, 8, 8);
+    font-family: General;
+    font-size: 2em;
+}
+#formuAlta{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12em;
+    border:.14em grey solid ;
+    border-radius: .5em;
+    padding: 4em;
+    box-shadow: 2px 2px  rgb(168, 167, 167);
+}
+#formuAlta label{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-family: General;
+}
+#formuAlta input{
+    border-bottom: .2em red solid;
+    padding: 1em;
+    width: 80%;
+    font-family: General;
+}
+#botonAlta{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+}
+#botonAlta input{
+    margin: 0 auto;
+    font-family: General;
+    font-size: 1em;
+    background-color: white;
+    border: .2em red solid;
+    margin-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/***********PELICULA-LISTADO*****************/
+#sectionListado{
+    display: flex;
+}
+#mainListado{
+    margin: 0 auto;
+    width: 70%;
+}
+#articleListado{
+    margin: 0 auto;
+    border: .1em black solid;
+    display: flex;
+}
+#figurePortada{
+    width: 15em;
+}
+#imgPortada{
+    width: 100%;
+    height: 50vh;
+}
+#datosListado{
+    display: flex;
+    flex-direction: column;
+}
+.pListado{
+    font-size: 1.3em;
+    font-family: General;
+
+}
+#menuIconos{
+    display: flex;
+}
+#menuIconos li{
+    list-style: none;
+    margin-left: 1em;
+}
+#menuIconos a{
+    text-decoration: none;
+    
+}
+#menuIconos img{
+    width: 2em;
+}
+
+/************PELICULA-MODIFCAR*************/
+
+#sectionModificando{
+    display: flex;
+}
+#mainModificando{
+    margin: 0 auto;
+}
+#formuModificando{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    border:.14em grey solid ;
+    border-radius: .5em;
+    padding: 4em;
+    box-shadow: 2px 2px  rgb(168, 167, 167);
+}
+#formuModificando label{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-family: General;
+}
+#formuModificando input{
+    border-bottom: .2em red solid;
+    padding: 1em;
+    width: 80%;
+    font-family: General;
+}
+#botonModificando{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+#botonModificando input{
+    margin: 0 auto;
+    font-family: General;
+    font-size: 1em;
+    background-color: white;
+    border: .2em red solid;
+    margin-top: 1em;
+    margin-left: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*************MODOFICAR-CONFIRMAR****************/
+
+#sectionModificar{
+    display: flex;
+}
+#mainConfirmar{
+    margin: 0 auto;
+}
+#mainConfirmar article{
+    border-radius: .5em;
+    padding: 2em;
+    box-shadow: 2px 2px  rgb(168, 167, 167);
+    margin-top: 5em;
+}
+#mainConfirmar p{
+    font-family: General;
+    font-size: 2em;
+}
+
+/****************PELICULAS-FAV-LISTADO****************/
+.sectionFavoritas{
+    display: flex;
+}
+.mainFavoritas{
+    margin: 0 auto;
+    width: 70%;
+}
+footer{
+    display: flex;
+}
+footer p{
+    margin: 0 auto;
+    font-family: Usuario;
+}
+/***********PELICULA-BORRAR***************/
+.sectionBorrar{
+    display: flex;
+}
+.mainBorrar{
+    margin: 0 auto;
+}
+.articleBorrar{
+    border-radius: .5em;
+    padding: 1em;
+    box-shadow: 2px 2px  rgb(168, 167, 167);
+    margin-top: 5em;
+}
+.h2Borrar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    margin-left: 3.5em;
+}
+.divBorrar{
+    display: flex;
+    margin-left: 6.5em;
+}
+.pBorrar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+.botonBorrar button{
+    padding: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    margin-left: 1em;
+}
+/************CONTACTENOS*************/
+.sectionContactenos{
+    display: flex;
+}
+.mainContactenos{
+    margin: 0 auto;
+}
+.articleContactenos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+}
+.legendContactenos{
+    margin: 0 auto;
+    color: rgb(233, 8, 8);
+    font-family: General;
+    font-size: 2em;
+}
+.formContactenos{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border:.14em grey solid ;
+    border-radius: .5em;
+    padding: 4em;
+    box-shadow: 2px 2px  rgb(168, 167, 167);
+}
+.formContactenos label{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-family: General;
+    margin: 0 auto;
+}
+.formContactenos input{
+    border-bottom: .2em red solid;
+    padding: 1em;
+    width: 80%;
+    font-family: General;
+}
+select{
+    border: .1em black solid;
+    padding: .5em;
+    font-family: General;
+    font-size: .5em;
+    font-weight: 600;
+}
+textarea{
+    border: .1em black solid;   
+}
+.botonContactenos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+}
+.botonContactenos input{
+    margin: 0 auto;
+    font-family: General;
+    font-size: 1em;
+    background-color: white;
+    border: .2em red solid;
+    margin-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/*--------------------------------USUARIO-ALTA-OK--------------------------------*/
+.sectionUsu{
+    display: flex;
+}
+.articleUsu{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
+#legendUsu{
+    margin-left: 10em;
+    color: rgb(233, 8, 8);
+    font-family: General;
+    font-size: 2em;
+}
+#nuevoUsu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12em;
+    border:.14em grey solid ;
+    border-radius: .5em;
+    padding: 4em;
+    box-shadow: 2px 2px  rgb(168, 167, 167);
+}
+#nuevoUsu label{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-family: General;
+}
+#nuevoUsu input{
+    border-bottom: .2em red solid;
+    padding: 1em;
+    width: 80%;
+    font-family: General;
+}
+#botonUsu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+}
+#botonUsu input{
+    margin: 0 auto;
+    font-family: General;
+    font-size: 1em;
+    background-color: white;
+    border: .2em red solid;
+    margin-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
